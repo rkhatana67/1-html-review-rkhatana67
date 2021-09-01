@@ -3,12 +3,17 @@ body{
     color: #1a202c;
     text-align: left;
     background-color: lightcyan;
-    text:  black;
+
 }
 header{
 background-color: lightgray;
-text: black;
 }
+
+
+  a:hover {
+    background-color: yellow;
+  }
+
 .main-body {
     padding: 10px;
 }
@@ -28,7 +33,7 @@ text: black;
     border-radius: .25rem;
 }
 
-.card-body {
+#card-body {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1rem;
